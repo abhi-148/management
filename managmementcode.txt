@@ -1,0 +1,15 @@
+public class SeriesSum {
+    static int seriesSum(int n) {
+        // Calculate the sum of the series using the formula n * (n + 1) / 2
+        return n * (n + 1) / 2;
+    }
+
+    public static void main(String[] args) {
+        // Example usage
+        int N1 = 1;
+        System.out.println(seriesSum(N1)); // Output: 1
+
+        int N2 = 5;
+        System.out.println(seriesSum(N2)); // Output: 15
+    }
+}
